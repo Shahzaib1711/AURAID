@@ -3216,7 +3216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4486356378160485906, guid: c18913b899044904994b7db9eee12ab2, type: 3}
       propertyPath: apiKey
-      value: e1524f99f2742188465f181ec80e4615deb80612
+      value: YOUR_DEEPGRAM_API_KEY
       objectReference: {fileID: 0}
     - target: {fileID: 4507671631744155621, guid: c18913b899044904994b7db9eee12ab2, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4883,7 +4883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8763355400380750214, guid: b0ad2c924afe6a14b96cb03e5d83adbe, type: 3}
       propertyPath: apiKey
-      value: e1524f99f2742188465f181ec80e4615deb80612
+      value: YOUR_DEEPGRAM_API_KEY
       objectReference: {fileID: 0}
     - target: {fileID: 8771720531615543773, guid: b0ad2c924afe6a14b96cb03e5d83adbe, type: 3}
       propertyPath: m_Enabled

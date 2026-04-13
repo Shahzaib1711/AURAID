@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "336807627474",
+    "project_id": "auraid-71d93",
+    "storage_bucket": "auraid-71d93.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336807627474:android:d1974c3b9ca955ddbcfb0b",
+        "android_client_info": {
+          "package_name": "com.unity.template.mixedreality"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHAAcLmVwdzcdUkcgGsNmKyOvbXLfjqzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

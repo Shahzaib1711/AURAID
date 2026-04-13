@@ -1,0 +1,50 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Addressables and generated bundles
+ServerData/
+*.bundle
+*.unitypackage
+
+# IDE
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large / generated binaries (do not commit)
+*.apk
+*.aab
+AURAID_BurstDebugInformation_DoNotShip/
+TempAssembly.dll
+QuestBuild/
+
+# Firebase Functions (install with npm in functions/)
+functions/node_modules/
+
+# Firebase Unity native plugins over GitHub single-file limit (100MB).
+# Re-import Firebase SDK in Unity if you need Linux Editor / macOS Editor targets.
+Assets/Firebase/Plugins/x86_64/*.so
+Assets/Firebase/Plugins/x86_64/*.bundle
+

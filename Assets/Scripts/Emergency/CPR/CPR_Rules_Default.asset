@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6925db493096b3245a1ab7d31b4ab08c, type: 3}
+  m_Name: CPR_Rules_Default
+  m_EditorClassIdentifier: 
+  minRatePerMin: 100
+  maxRatePerMin: 120
+  minForce: 0.35
+  maxForce: 0.95
+  compressionOnThreshold: 0.25
+  compressionOffThreshold: 0.18
+  recoilForceThreshold: 0.12
+  maxAllowedPauseSec: 2
+  feedbackIntervalSec: 2

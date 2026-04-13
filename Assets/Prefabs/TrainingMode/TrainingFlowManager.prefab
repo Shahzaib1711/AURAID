@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2436704230064149356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 361999822004503771}
+  - component: {fileID: 3021793298752440220}
+  m_Layer: 0
+  m_Name: TrainingFlowManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &361999822004503771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2436704230064149356}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3021793298752440220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2436704230064149356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8920ec2a32a6ea1429ab44290d67cf43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registrationRoot: {fileID: 4069611801082204215, guid: 7d4e30d79da3ff44db8c40d9336091a6, type: 3}
+  trainingInfoRoot: {fileID: 8236083966689716717, guid: 2dc53c1d678ac484087ed3e7f76c4f00, type: 3}
+  qnaBeforeRoot: {fileID: 2714720445331494192, guid: f9c2a4a127e1eaf4e9e455841f7f45b8, type: 3}
+  practicalRoot: {fileID: 0}
+  qnaAfterRoot: {fileID: 2714720445331494192, guid: f9c2a4a127e1eaf4e9e455841f7f45b8, type: 3}
+  quizRoot: {fileID: 992923125561203614, guid: 4737e329c777f1c47bf9c1d06348e279, type: 3}
+  reportRoot: {fileID: 0}

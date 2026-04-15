@@ -308,8 +308,6 @@ firebase deploy --only functions
 
 ---
 
-## 12) License
 
-This project is for academic and educational use unless otherwise specified by repository owner.
 
 

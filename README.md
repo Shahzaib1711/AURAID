@@ -51,6 +51,32 @@ Install these before setup:
 
 ---
 
+## Security Note for Professors / Evaluators
+
+For security reasons, this repository does **not** include real secrets or private credentials.  
+You must provide your own values locally when setting up the project.
+
+### Intentionally not pasted in this repo
+
+- API keys and API tokens used by voice/STT/TTS services.
+- SMTP credentials (`smtp.user`, `smtp.pass`, and provider-specific secrets).
+- Personal sender email accounts and app passwords.
+- Private Firebase project credentials and any local-only config values.
+- Real Wi-Fi credentials for ESP32 (`YOUR_WIFI_SSID`, `YOUR_WIFI_PASSWORD`).
+
+### What you should configure on your side
+
+- Add your own API keys in Unity inspector/config fields used by this project.
+- Set Firebase Functions SMTP config using your own credentials:
+  ```bash
+  firebase functions:config:set smtp.user="..." smtp.pass="..." smtp.host="..." smtp.port="..." smtp.from="..."
+  ```
+- Replace ESP32 placeholders in `Hardware/ESP32_AURAID_Sensors/ESP32_AURAID_Sensors.ino`.
+
+Never commit secrets back to the public repository.
+
+---
+
 ## 3) Repository Structure
 
 - `Assets/` - Unity assets, scripts, UI, logic, prefabs.
